@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Bill Detection</title>
+</head>
+<body>
+    <h2>Enter Fake Bill Features</h2>
+    <form action="/predict" method="post">
+        <label for="diagonal">Diagonal:</label>
+        <input type="text" id="diagonal" name="diagonal"><br><br>
+
+        <label for="height_left">Height Left:</label>
+        <input type="text" id="height_left" name="height_left"><br><br>
+
+        <label for="height_right">Height Right:</label>
+        <input type="text" id="height_right" name="height_right"><br><br>
+
+        <label for="margin_low">Margin Low:</label>
+        <input type="text" id="margin_low" name="margin_low"><br><br>
+
+        <label for="margin_up">Margin Up:</label>
+        <input type="text" id="margin_up" name="margin_up"><br><br>
+
+        <label for="length">Length:</label>
+        <input type="text" id="length" name="length"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+
